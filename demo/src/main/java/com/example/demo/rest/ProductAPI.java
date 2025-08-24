@@ -10,4 +10,10 @@ public class ProductAPI {
 	public String showProduct() {
 		return "product added";
 	}
+	
+
+	@GetMapping("/show")
+	public String show() {
+		return "product added";
+	}
 }
